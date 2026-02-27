@@ -11,7 +11,7 @@ const ProductPage = () => {
 
   const [editId, setEditId] = useState(null);
 
-  const BASE_URL = "https://shop-backend-b8e2.onrender.com";
+  const BASE_URL = "https://shop-backend-b8e2.onrender.com/product/getallproducts";
 
   // 🔹 Fetch All Products
   const fetchProducts = async () => {
